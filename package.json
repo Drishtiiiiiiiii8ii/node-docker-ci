@@ -1,13 +1,11 @@
 {
-  "name": "docker-ci",
+  "name": "node-docker-ci",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Simple Node.js app for Docker CI/CD assignment",
+  "main": "server.js",
   "scripts": {
-    "scripts": {
-  "start": "node server.js",
-  "test": "echo \"Tests passed\""
-}
+    "start": "node server.js",
+    "test": "echo \"Tests passed\""
   },
   "keywords": [],
   "author": "",
