@@ -14,7 +14,7 @@ jobs:
 
       # 2️⃣ Login to Docker Hub safely
       - name: Docker Login
-        run: echo "${{ secrets.DOCKER_DRISHTI123 }}" | docker login -u "${{ secrets.DOCKER_DRISHTIIIIIII8II }}" --password-stdin
+        run: echo "${{ secrets.DOCKER_DRISHTIIIIIII8II }}" | docker login -u "${{ secrets.DOCKER_DRISHTI123 }}" --password-stdin
 
       # 3️⃣ Build Docker Image
       - name: Build Docker Image
